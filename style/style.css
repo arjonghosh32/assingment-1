@@ -219,18 +219,6 @@ body {
     background-repeat: no-repeat;
     animation: float 3s infinite ease-in-out;
   }
-  
-  @keyframes float {
-    0% {
-      transform: translateY(0);
-    }
-    50% {
-      transform: translateY(-10px);
-    }
-    100% {
-      transform: translateY(0);
-    }
-  }
 
   /* Container Styling */
 .donate-container {
@@ -398,4 +386,13 @@ body {
 .inputt{
     height:55px ;
     width: 600px;
+}
+
+.footer-h{
+    text-align: center;
+}
+.icon{
+    display: flex;
+    justify-content: center;
+    gap: 23px;
 }
