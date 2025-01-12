@@ -5,10 +5,10 @@
     justify-content:space-between;
     margin-right: 6px;
     margin-left: 6px;
- 
-}
-
-.Login-button{
+  
+  }
+  
+  .Login-button{
   color: #198754;
   background-color: white;
   /* border: none; */
@@ -17,11 +17,11 @@
   font-weight: bold;
   border-radius: 8px;
   cursor: pointer;
- 
-}
-
-
-.Benner{
+  
+  }
+  
+  
+  .Benner{
     background-color: aquamarine;
     max-width: 1440px;
    margin: auto;
@@ -29,8 +29,8 @@
    width: 1280;
   display: flex;
   padding: 20px;
-}
-.explorbtn{
+  }
+  .explorbtn{
     height: 56px;
     width: 270px;
    padding-left: 35px;
@@ -38,21 +38,21 @@
    padding-top: 17px;
    color: white;
    border-radius: 8px;
- 
+  
   padding-bottom: 17px;
    background-color:  rgba(0, 106, 80, 1);
    text-align: center;
-}
-
-
-
-
-
-
-
-
-/* General Styles */
-body {
+  }
+  
+  
+  
+  
+  
+  
+  
+  
+  /* General Styles */
+  body {
     font-family: Arial, sans-serif;
     margin: 0;
     padding: 0;
@@ -157,8 +157,8 @@ body {
     background-color: #034d27;
   }
   
-
-
+  
+  
   /* benner1 */
   .banner-container {
     display: flex;
@@ -233,9 +233,9 @@ body {
     background-repeat: no-repeat;
     animation: float 3s infinite ease-in-out;
   }
-
+  
   /* Container Styling */
-.donate-container {
+  .donate-container {
     max-width: 600px;
     margin: 50px auto;
     padding: 20px;
@@ -321,7 +321,7 @@ body {
   .donate-now-button:hover {
     background-color: #034d27;
   }
-
+  
   /* card1 */
   .card-container {
     display: flex;
@@ -329,9 +329,9 @@ body {
     max-width: 1440px;
    margin-left: auto;
    margin-right: auto;
-}
-
-.card {
+  }
+  
+  .card {
   border: 1px solid #ccc;
   border-radius: 8px;
   box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
@@ -341,33 +341,33 @@ body {
   text-align: center;
   padding: 24px;
   gap: 200px;
-}
-
-.img-1{
+  }
+  
+  .img-1{
   display: flex;
   height: 62px;
   width: 62px;
-}
-.item{
+  }
+  .item{
   display: flex;
- 
-}
-
-.card h1 {
+  
+  }
+  
+  .card h1 {
   font-size: 1.5em;
   margin: 10px 0;
-}
-
-.card p {
+  }
+  
+  .card p {
   padding: 0 10px 10px;
   color: #555;
-}
-.card img {
+  }
+  .card img {
   width: 100%;
   height: auto;
-}
-/* suv */
-.Subscribe{
+  }
+  /* suv */
+  .Subscribe{
     height: 395px;
     width: 1280px;
     margin-left: auto;
@@ -380,36 +380,36 @@ body {
     padding-bottom: 80px;
     border-radius: 24px;
     margin-top: 80px;
-}
-.inputfild{
+  }
+  .inputfild{
     display: flex;
     align-items: center;
     justify-content: center;
     
-}
-.bnt4{
+  }
+  .bnt4{
     background-color:rgba(0, 106, 80, 1) ;
     padding-left: 34px;
     padding-right: 34px;
     padding-bottom: 19px;
     padding-top: 19px;
-
-}
-.inputt{
+  
+  }
+  .inputt{
     height:55px ;
     width: 600px;
-}
-
-.footer-h{
+  }
+  
+  .footer-h{
     text-align: center;
-}
-.icon{
+  }
+  .icon{
     display: flex;
     justify-content: center;
     gap: 23px;
-}
-
-.donate-container {
+  }
+  
+  .donate-container {
   max-width: 600px;
   margin: 50px auto;
   background-color: white;
@@ -417,27 +417,27 @@ body {
   border-radius: 10px;
   box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
   text-align: center;
-}
-
-h1 {
+  }
+  
+  h1 {
   font-size: 24px;
   color: #333;
-}
-
-p {
+  }
+  
+  p {
   font-size: 14px;
   color: #666;
   margin: 20px 0;
   line-height: 1.6;
-}
-
-.donation-options {
+  }
+  
+  .donation-options {
   display: flex;
   justify-content: space-between;
   margin: 20px 0;
-}
-
-.donation-button {
+  }
+  
+  .donation-button {
   flex: 1;
   margin: 0 5px;
   padding: 15px 20px;
@@ -449,19 +449,19 @@ p {
   border-radius: 8px;
   cursor: pointer;
   transition: background-color 0.3s, color 0.3s;
-}
-
-.donation-button:hover {
+  }
+  
+  .donation-button:hover {
   background-color: #dff0d8;
-}
-
-.donation-button.selected {
+  }
+  
+  .donation-button.selected {
   background-color: #cce5cc;
   border-color: #cce5cc;
   color: #333;
-}
-
-.donation-input {
+  }
+  
+  .donation-input {
   width: 100%;
   padding: 12px;
   margin: 20px 0;
@@ -469,9 +469,9 @@ p {
   border: 1px solid #ccc;
   border-radius: 8px;
   text-align: center;
-}
-
-.submit-button {
+  }
+  
+  .submit-button {
   background-color: #198754;
   color: white;
   border: none;
@@ -481,53 +481,53 @@ p {
   border-radius: 8px;
   cursor: pointer;
   transition: background-color 0.3s;
-}
-
-.submit-button:hover {
+  }
+  
+  .submit-button:hover {
   background-color: #145a40;
-}
-
-.container {
+  }
+  
+  .container {
   max-width: 800px;
   margin: 50px auto;
   background-color: white;
   padding: 20px;
   border-radius: 8px;
   box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
-}
-
-h1 {
+  }
+  
+  h1 {
   text-align: center;
   color: #333;
-}
-
-table {
+  }
+  
+  table {
   width: 100%;
   border-collapse: collapse;
   margin-top: 20px;
-}
-
-th {
+  }
+  
+  th {
   background-color: #cce5cc;
   color: #333;
   text-align: left;
   padding: 10px;
-}
-
-td {
+  }
+  
+  td {
   padding: 10px;
   border-bottom: 1px solid #ddd;
-}
-
-select {
+  }
+  
+  select {
   width: 100%;
   padding: 8px;
   border: 1px solid #ccc;
   border-radius: 4px;
   background-color: #fff;
-}
-
-
+  }
+  
+  
   /* Vision Section */
   .vision {
     padding: 20px;
@@ -624,12 +624,12 @@ select {
   .paragraph-2{
     color:#555;
   }
-
+  
   .Yunus{
     display: flex;
     justify-content: center;
   }
-
+  
   .paragraph-3{
     max-width: 800px;
     margin: 50px auto;
@@ -638,7 +638,7 @@ select {
     border-radius: 8px;
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
   }
-
+  
   .paragraph-3{
     background-image: url("../assets/quote-bg.png");
    background-repeat: no-repeat;
